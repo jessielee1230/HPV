@@ -68,8 +68,8 @@
     myChart.setOption(option);
 
     $(window).on('resize', function() {
-        if (chart != null && chart != undefined) {
-            chart.resize();
-            console.log(chart);
+        if (myChart != null && myChart != undefined) {
+            myChart.resize();
+            console.log(myChart);
         }
     });

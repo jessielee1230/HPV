@@ -6,9 +6,6 @@
         tooltip: {
             trigger: 'axis'
         },
-        legend: {
-            data: ['宫颈癌']
-        },
         grid: {
             left: '3%',
             right: '4%',

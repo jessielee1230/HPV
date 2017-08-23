@@ -1,4 +1,4 @@
-    var myChart7 = echarts.init(document.getElementById('price2'), 'essos');
+    var myChart6 = echarts.init(document.getElementById('prices'), 'essos');
 
     var option = {
         title: {
@@ -26,29 +26,29 @@
         },
         yAxis: {
             type: 'category',
-            data: ['新西兰', '澳大利亚', '加拿大', '美国', '中国大陆', '中国香港']
+            data: ['新西兰', '澳大利亚', '西班牙', '美国', '中国大陆', '中国香港']
         },
         series: [{
                 name: '2价',
                 type: 'bar',
-                data: [1990, 2990, 3000, 3000, 1220, 3000]
+                data: [2365, 2080, 682, 2795, 1740, 2295]
             },
             {
                 name: '4价',
                 type: 'bar',
-                data: [1990, 2990, 3000, 3000, 1220, 3000]
+                data: [2663, 2080, 682, 2935, 0, 2295]
             },
             {
-                name: '4价',
+                name: '9价',
                 type: 'bar',
-                data: [1990, 2990, 3000, 3000, 1220, 3000]
+                data: [0, 0, 0, 2940, 0, 3360]
             }
 
 
         ]
     };
 
-    myChart7.setOption(option);
+    myChart6.setOption(option);
 
     $(window).on('resize', function() {
         if (myChart6 != null && myChart6 != undefined) {

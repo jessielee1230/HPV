@@ -28,9 +28,11 @@
     <link href="css/custom.css" rel="stylesheet">
 
     <!-- Import Echarts -->
+
     <script src="js/echarts.js"></script>
     <script src="js/essos.js"></script>
     <script src="js/world.js"></script>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
 </head>
 
@@ -285,6 +287,7 @@
         </section>
 
         <section class="bg-primary" id="price">
+
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
@@ -294,64 +297,86 @@
                         </p>
                     </div>
                 </div>
+        </section>
+
+        <section id="price">
+            <div class="container">
+                <div class="row">
+                    <div id="prices" class="col-lg-12 text-center" style="width:100%;height:300px"></div>
+                    <script src="js/price.js"></script>
+                </div>
+                <br>
+                <p class="text-mute text-center ">看来，想打疫苗的小仙女，荷包可不能干瘪呀！</p>
+                <p class="text-muted text-center">Source:
+                    <a href=" https://www.goodrx.com/cervarix " target="_black " style="text-decoration: none "> America</a>
+                    <a href="http://www.chemistwarehouse.com.au/buy/58813/Gardasil-X-1-Prefilled-Syringe " target="_black " style="text-decoration: none "> Australia</a>
+                    <a href="http://www.familyplanning.org.nz/clinics/fees " target="_black " style="text-decoration: none ">New Zealand</a>
+                </p> <br>
             </div>
         </section>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div id="price2" class="col-lg-12 text-center" style="width:100%;height:100%"></div>
-                <script src="js/price.js"></script>
+
+        <div>
+            <div id="contact " class=" col-lg-12 col-sm-12 ">
+                <img src="img/HPV.jpg " style="width:100%;height=100px ">
             </div>
         </div>
-        <br>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading" style="font-size:100px;font-family:Impact">THE END</h2>
-                <hr class="primary">
-                <p class="text-mute">希望本篇干货解决了你想问的关于HPV的问题，<br>有条件的
-                    <bold style="font-size:25px;font-family:黑体">美少女</bold>可以尽早接种HPV疫苗，远离宫颈癌！</p>
-                <br>
-
-            </div>
-
-
-
-            <div>
-                <div id="contact" class=" col-lg-12 col-sm-12 ">
-                    <img src="img/HPV.jpg " style="width:100%;height=100px">
-                </div>
-            </div>
         </div>
 
-        <section id="contact ">
+        <section id="end ">
             <div class="container ">
                 <div class="row ">
-                    <div class="col-lg-8 mx-auto text-center ">
-                        <h2 class="section-heading ">联系作者</h2>
+                    <div class="col-lg-12 text-center ">
+                        <h2 class="section-heading " style="font-size:100px;font-family:Impact ">THE END</h2>
                         <hr class="primary ">
-                        <p>疫苗科普贴，有任何问题请与作者联系。</p>
+                        <p class="text-mute ">希望本篇干货解决了你想问的关于HPV的问题，<br>有条件的
+                            <bold style="font-size:25px;font-family:黑体 ">美少女</bold>可以尽早接种HPV疫苗，远离宫颈癌！</p>
+                        <br>
                     </div>
                 </div>
-                <div class="row ">
-                    <div class="col-lg-12 mr-auto text-center ">
-                        <p>
-                            <a class="fa fa-envelope-o fa-3x sr-contact " href="mailto:jessielee1230@gmail.com " style="text-decoration: none; "></a>
-                        </p>
+
+                <section id="contact ">
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-lg-8 mx-auto text-center ">
+                                <h2 class="section-heading ">联系作者</h2>
+                                <hr class="primary ">
+                                <p>疫苗科普贴，有任何问题请与作者联系。</p>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-lg-12 mr-auto text-center ">
+                                <p>
+                                    <a class="fa fa-envelope-o fa-3x sr-contact " href="mailto:jessielee1230@gmail.com " style="text-decoration: none "></a>
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="row ">
+                            <div class="col-lg-8 mx-auto text-center ">
+                                <h2 class="section-heading ">相关链接</h2>
+                                <hr class="primary ">
+                                <p><a href=" https://www.cancer.org/cancer/cancer-causes/infectious-agents/hpv/hpv-vaccines.html " target="_black " style="text-decoration: none ">Introduction on HPV Vaccine</a>
+                                    <p><a href="https://www.drugs.com/cervarix.html " target="_black " style="text-decoration: none ">Introduction on Cervarix</a>
+                                        <p><a href="http://www.hpv.org.nz/hpv-vaccine/about-hpv-vaccine " target="_black " style="text-decoration: none ">New Zealand HPV Project</a>
+                                            <p><a href="http://www.immunise.health.gov.au/internet/immunise/publishing.nsf/Content/Handbook10-home~handbook10part4~handbook10-4-6#4-6-4 " target="_black " style="text-decoration: none ">The Australian Immunisation Handbook - HPV</a>
+                                                <p><a href="http://www.natap.org/2011/newsUpdates/bmj.d5720.full.pdf " target="_black " style="text-decoration: none "> Comparing bivalent and quadrivalent HPV vaccines</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </section>
+                </section>
 
         </section>
 
-        <div id="top">
-            <a href="#">
-                <img src="img/top.png" width="35px" height="35px">
+        <div id="top ">
+            <a href="# ">
+                <img src="img/top.png " width="35px " height="35px ">
             </a>
 
             <!-- Bootstrap core JavaScript -->
             <script src="vendor/jquery/jquery.min.js "></script>
+            <script src="vendor/jquery/jquery.js "></script>
             <script src="vendor/popper/popper.min.js "></script>
             <script src="vendor/bootstrap/js/bootstrap.min.js "></script>
 
@@ -362,6 +387,8 @@
 
             <!-- Custom scripts for this template -->
             <script src="js/creative.min.js "></script>
+
+
 
 </body>
 

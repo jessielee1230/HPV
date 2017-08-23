@@ -72,8 +72,8 @@
     myChart2.setOption(option);
 
     $(window).on('resize', function() {
-        if (chart != null && chart != undefined) {
-            chart.resize();
-            console.log(chart);
+        if (myChart2 != null && myChart2 != undefined) {
+            myChart2.resize();
+            console.log(myChart2);
         }
     });

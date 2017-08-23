@@ -50,8 +50,8 @@
     myChart3.setOption(option);
 
     $(window).on('resize', function() {
-        if (chart != null && chart != undefined) {
-            chart.resize();
-            console.log(chart);
+        if (myChart3 != null && myChart3 != undefined) {
+            myChart3.resize();
+            console.log(myChart3);
         }
     });
