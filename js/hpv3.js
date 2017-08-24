@@ -26,24 +26,47 @@
         series: [{
                 name: '宫颈癌',
                 type: 'bar',
-                data: [70, 70, 90],
-                // formatter: '{d}%'
+                label: {
+                    normal: {
+                        show: true,
+                        position: 'insideBottom'
+                    }
+                },
+                data: [-70, -70, -90],
             },
             {
                 name: '肛门癌',
                 type: 'bar',
-                data: [0, 80, 95]
+                label: {
+                    normal: {
+                        show: true,
+                        position: 'insideBottom'
+                    }
+                },
+                data: [0, -80, -95]
             },
 
             {
                 name: '外阴癌',
                 type: 'bar',
-                data: [0, 75, 85]
+                label: {
+                    normal: {
+                        show: true,
+                        position: 'insideBottom'
+                    }
+                },
+                data: [0, -75, -85]
             },
             {
                 name: '阴道癌',
                 type: 'bar',
-                data: [0, 65, 80]
+                label: {
+                    normal: {
+                        show: true,
+                        position: 'insideBottom'
+                    }
+                },
+                data: [0, -65, -80]
             },
         ]
     };
